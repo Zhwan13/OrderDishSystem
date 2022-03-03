@@ -1,0 +1,361 @@
+# depslib dependency file v1.0
+1586537587 source:f:\c++\orderdishsystem\app\cadminwin.cpp
+	"CadminWin.h"
+	<iostream>
+
+1586374577 f:\c++\orderdishsystem\app\cadminwin.h
+	"../core/CWinBase.h"
+
+1586372870 f:\c++\orderdishsystem\core\cwinbase.h
+	<string.h>
+	<stdio.h>
+	<conio.h>
+	"CControlBase.h"
+	"CButton.h"
+	"CEdit.h"
+	"CLabel.h"
+	<list>
+	<algorithm>
+	"CTable.h"
+
+1586200161 f:\c++\orderdishsystem\core\ccontrolbase.h
+	<string.h>
+	"CTool.h"
+
+1586376559 f:\c++\orderdishsystem\core\ctool.h
+	<time.h>
+	<iostream>
+	<windows.h>
+	<windowsx.h>
+	<stdio.h>
+
+1586537587 f:\c++\orderdishsystem\core\cbutton.h
+	<string.h>
+	"CTool.h"
+	"CControlBase.h"
+
+1585022758 f:\c++\orderdishsystem\core\cedit.h
+	<string.h>
+	"CTool.h"
+	"CControlBase.h"
+
+1586371484 f:\c++\orderdishsystem\core\clabel.h
+	<string.h>
+	"CTool.h"
+	"CControlBase.h"
+
+1586367467 f:\c++\orderdishsystem\core\ctable.h
+	"CTool.h"
+	"../app/CGoods.h"
+	"../app/InStockRecord.h"
+	"../app/CGoodsStockRecord.h"
+	"CControlBase.h"
+	"CWinBase.h"
+	<list>
+	<vector>
+	<map>
+	<algorithm>
+	<iostream>
+
+1586345184 f:\c++\orderdishsystem\app\cgoods.h
+	<string.h>
+	<stdio.h>
+	<map>
+	"../core/CTool.h"
+	<iostream>
+
+1586366210 f:\c++\orderdishsystem\app\instockrecord.h
+
+1586366315 f:\c++\orderdishsystem\app\cgoodsstockrecord.h
+	<iostream>
+	<string.h>
+
+1586593990 source:f:\c++\orderdishsystem\app\ccheckcreatewin.cpp
+	"CCheckCreateWin.h"
+
+1586362909 f:\c++\orderdishsystem\app\ccheckcreatewin.h
+	<iostream>
+	"../core/CWinBase.h"
+	"../core/CGoodsFound.h"
+
+1586364747 f:\c++\orderdishsystem\core\cgoodsfound.h
+	<iostream>
+	"CControlBase.h"
+	"../app/CGoods.h"
+	<map>
+	<algorithm>
+
+1586537587 source:f:\c++\orderdishsystem\app\ccheckerwin.cpp
+	"CCheckerWin.h"
+
+1586377063 f:\c++\orderdishsystem\app\ccheckerwin.h
+	"../core/CWinBase.h"
+	"../core/CButton.h"
+	<iostream>
+
+1586286085 source:f:\c++\orderdishsystem\app\ccheckgoodsrecord.cpp
+
+1586537587 source:f:\c++\orderdishsystem\app\ccheckmenuwin.cpp
+	"CCheckMenuWin.h"
+
+1586356092 f:\c++\orderdishsystem\app\ccheckmenuwin.h
+	"../core/CWinBase.h"
+	"../core/CLabel.h"
+	"../core/CButton.h"
+	<iostream>
+
+1586279654 source:f:\c++\orderdishsystem\app\ccheckrecord.cpp
+
+1586537428 source:f:\c++\orderdishsystem\app\ccheckreportwin.cpp
+	"CCheckReportWin.h"
+
+1586356092 f:\c++\orderdishsystem\app\ccheckreportwin.h
+	"../core/CWinBase.h"
+	<iostream>
+
+1586192930 source:f:\c++\orderdishsystem\app\ccheckwin.cpp
+
+1586537574 source:f:\c++\orderdishsystem\app\cfile.cpp
+	"CFile.h"
+
+1586366899 f:\c++\orderdishsystem\app\cfile.h
+	<fstream>
+	<list>
+	<map>
+	<vector>
+	<algorithm>
+	"CStaff.h"
+	"CGoods.h"
+	"CGoodsStockRecord.h"
+	<iostream>
+	<conio.h>
+
+1586344287 f:\c++\orderdishsystem\app\cstaff.h
+	"string.h"
+	<stdlib.h>
+	<stdio.h>
+	<list>
+	<algorithm>
+
+1586178039 source:f:\c++\orderdishsystem\app\cgoods.cpp
+	"CGoods.h"
+
+1586537587 source:f:\c++\orderdishsystem\app\cgoodsaddwin.cpp
+	"CGoodsAddWin.h"
+
+1586377353 f:\c++\orderdishsystem\app\cgoodsaddwin.h
+	<iostream>
+	<map>
+	"../core/CWinBase.h"
+	"../core/CLabel.h"
+	"../core/CEdit.h"
+	"CFile.h"
+
+1586537587 source:f:\c++\orderdishsystem\app\cgoodsearchwin.cpp
+	"CGoodSearchWin.h"
+
+1586377302 f:\c++\orderdishsystem\app\cgoodsearchwin.h
+	"../core/CButton.h"
+	"../core/CWinBase.h"
+	"../core/CTable.h"
+	"CGoods.h"
+	<map>
+	<algorithm>
+	<conio.h>
+	<iostream>
+
+1585751940 source:f:\c++\orderdishsystem\app\cgoodsrecord.cpp
+
+1586366313 source:f:\c++\orderdishsystem\app\cgoodsstockrecord.cpp
+	"CGoodsStockRecord.h"
+
+1586537588 source:f:\c++\orderdishsystem\app\cloginwin.cpp
+	"CLoginWin.h"
+	<stdio.h>
+
+1586356199 f:\c++\orderdishsystem\app\cloginwin.h
+	"../core/CButton.h"
+	"../core/CEdit.h"
+	"../core/CLabel.h"
+	"../core/CTool.h"
+	"CStaff.h"
+	"../core/CControlBase.h"
+	"../core/CWinBase.h"
+	"../core/CList.h"
+	"CadminWin.h"
+	"CCheckerWin.h"
+	<iostream>
+
+1584154110 f:\c++\orderdishsystem\core\clist.h
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\app\cregisterwin.cpp
+	"CRegisterWin.h"
+	<iostream>
+
+1586356092 f:\c++\orderdishsystem\app\cregisterwin.h
+	"../core/CButton.h"
+	"../core/CEdit.h"
+	"../core/CLabel.h"
+	"../core/CTool.h"
+	"CFile.h"
+	"CStaff.h"
+	"../core/CControlBase.h"
+	"../core/CWinBase.h"
+	<list>
+	<algorithm>
+
+1586344252 source:f:\c++\orderdishsystem\app\cstaff.cpp
+	"CStaff.h"
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\app\cstartwin.cpp
+	"CStartWin.h"
+
+1586356092 f:\c++\orderdishsystem\app\cstartwin.h
+	"../core/CButton.h"
+	"../core/CWinBase.h"
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\app\ctipswin.cpp
+	"CTipsWin.h"
+
+1586362765 f:\c++\orderdishsystem\app\ctipswin.h
+	"../core/CWinBase.h"
+	"../core/CButton.h"
+	"../core/CLabel.h"
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\app\instockmenuwin.cpp
+	"InStockMenuWin.h"
+
+1586377537 f:\c++\orderdishsystem\app\instockmenuwin.h
+	"../core/CButton.h"
+	"../core/CWinBase.h"
+	<iostream>
+
+1586366211 source:f:\c++\orderdishsystem\app\instockrecord.cpp
+
+1586537588 source:f:\c++\orderdishsystem\app\instockrecordwin.cpp
+	"InStockRecordWin.h"
+
+1586367199 f:\c++\orderdishsystem\app\instockrecordwin.h
+	<iostream>
+	"../core/CWinBase.h"
+	"CGoodsStockRecord.h"
+
+1586537588 source:f:\c++\orderdishsystem\app\instockwin.cpp
+	"InStockWin.h"
+
+1586593957 f:\c++\orderdishsystem\app\instockwin.h
+	"../core/CButton.h"
+	"../core/CWinBase.h"
+	"../core/CEdit.h"
+	"../core/CLabel.h"
+	"../core/CGoodsFound.h"
+	"InStockRecordWin.h"
+	"CGoodsAddWin.h"
+	"CFile.h"
+	<conio.h>
+	<vector>
+	<time.h>
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\app\outstockmenuwin.cpp
+	"OutStockMenuWin.h"
+
+1586377966 f:\c++\orderdishsystem\app\outstockmenuwin.h
+	"../core/CButton.h"
+	"../core/CWinBase.h"
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\app\outstockrecordwin.cpp
+	"OutStockRecordWin.h"
+
+1586367331 f:\c++\orderdishsystem\app\outstockrecordwin.h
+	<iostream>
+	"../core/CWinBase.h"
+	"CGoodsStockRecord.h"
+
+1586537588 source:f:\c++\orderdishsystem\app\outstockwin.cpp
+	"OutStockWin.h"
+
+1586378080 f:\c++\orderdishsystem\app\outstockwin.h
+	"../core/CButton.h"
+	"../core/CWinBase.h"
+	"../core/CEdit.h"
+	"../core/CLabel.h"
+	"../core/CGoodsFound.h"
+	"CFile.h"
+	<conio.h>
+	<ctime>
+	<map>
+	<iostream>
+
+1602200060 source:f:\c++\orderdishsystem\main.cpp
+	<iostream>
+	"core/CButton.h"
+	"core/CEdit.h"
+	"core/CLabel.h"
+	"app/CLoginWin.h"
+	"app/CRegisterWin.h"
+	"app/CStaff.h"
+	"app/CStartWin.h"
+	"app/CGoodSearchWin.h"
+	"app/InStockMenuWin.h"
+	"app/InStockWin.h"
+	"app/InStockRecordWin.h"
+	"app/CTipsWin.h"
+	"app/OutStockMenuWin.h"
+	"app/OutStockWin.h"
+	"app/OutStockRecordWin.h"
+	"app/CCheckMenuWin.h"
+	"app/CCheckCreateWin.h"
+	"app/CCheckReportWin.h"
+	<list>
+	<algorithm>
+	<conio.h>
+	<stdio.h>
+	"app/CFile.h"
+
+1586536578 source:f:\c++\orderdishsystem\core\cbutton.cpp
+	"CButton.h"
+	<iostream>
+	<stdio.h>
+
+1585233548 source:f:\c++\orderdishsystem\core\ccontrolbase.cpp
+	"CControlBase.h"
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\core\cedit.cpp
+	"CEdit.h"
+	<iostream>
+	<stdio.h>
+	<conio.h>
+
+1586537588 source:f:\c++\orderdishsystem\core\cgoodsfound.cpp
+	"CGoodsFound.h"
+
+1586537588 source:f:\c++\orderdishsystem\core\clabel.cpp
+	"CLabel.h"
+	<iostream>
+
+1583826113 source:f:\c++\orderdishsystem\core\clist.cpp
+	"CList.h"
+	<iostream>
+
+1586537588 source:f:\c++\orderdishsystem\core\ctable.cpp
+	"CTable.h"
+
+1586376869 source:f:\c++\orderdishsystem\core\ctool.cpp
+	"CTool.h"
+	<iostream>
+
+1586569272 source:f:\c++\orderdishsystem\core\cwinbase.cpp
+	"CWinBase.h"
+	<stdio.h>
+	<conio.h>
+	<iostream>
+
+1585412938 source:f:\c++\orderdishsystem\core\goods_found.cpp
+

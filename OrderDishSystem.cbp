@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OrderDishSystem" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="F:/C++/OrderDishSystem/Release/OrderDishSystem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="F:/C++/OrderDishSystem/Debug/OrderDishSystem" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="app/CCheckCreateWin.cpp" />
+		<Unit filename="app/CCheckCreateWin.h" />
+		<Unit filename="app/CCheckGoodsRecord.cpp" />
+		<Unit filename="app/CCheckMenuWin.cpp" />
+		<Unit filename="app/CCheckMenuWin.h" />
+		<Unit filename="app/CCheckRecord.h" />
+		<Unit filename="app/CCheckReportWin.cpp" />
+		<Unit filename="app/CCheckReportWin.h" />
+		<Unit filename="app/CCheckWin.h" />
+		<Unit filename="app/CCheckerWin.cpp" />
+		<Unit filename="app/CCheckerWin.h" />
+		<Unit filename="app/CFile.cpp" />
+		<Unit filename="app/CFile.h" />
+		<Unit filename="app/CGoodSearchWin.cpp" />
+		<Unit filename="app/CGoodSearchWin.h" />
+		<Unit filename="app/CGoods.cpp" />
+		<Unit filename="app/CGoods.h" />
+		<Unit filename="app/CGoodsAddWin.cpp" />
+		<Unit filename="app/CGoodsAddWin.h" />
+		<Unit filename="app/CGoodsStockRecord.cpp" />
+		<Unit filename="app/CGoodsStockRecord.h" />
+		<Unit filename="app/CLoginWin.cpp" />
+		<Unit filename="app/CLoginWin.h" />
+		<Unit filename="app/CRegisterWin.cpp" />
+		<Unit filename="app/CRegisterWin.h" />
+		<Unit filename="app/CStaff.cpp" />
+		<Unit filename="app/CStaff.h" />
+		<Unit filename="app/CStartWin.cpp" />
+		<Unit filename="app/CStartWin.h" />
+		<Unit filename="app/CTipsWin.cpp" />
+		<Unit filename="app/CTipsWin.h" />
+		<Unit filename="app/CadminWin.cpp" />
+		<Unit filename="app/CadminWin.h" />
+		<Unit filename="app/InStockMenuWin.cpp" />
+		<Unit filename="app/InStockMenuWin.h" />
+		<Unit filename="app/InStockRecord.cpp" />
+		<Unit filename="app/InStockRecord.h" />
+		<Unit filename="app/InStockRecordWin.cpp" />
+		<Unit filename="app/InStockRecordWin.h" />
+		<Unit filename="app/InStockWin.cpp" />
+		<Unit filename="app/InStockWin.h" />
+		<Unit filename="app/OutStockMenuWin.cpp" />
+		<Unit filename="app/OutStockMenuWin.h" />
+		<Unit filename="app/OutStockRecordWin.cpp" />
+		<Unit filename="app/OutStockRecordWin.h" />
+		<Unit filename="app/OutStockWin.cpp" />
+		<Unit filename="app/OutStockWin.h" />
+		<Unit filename="core/CButton.cpp" />
+		<Unit filename="core/CButton.h" />
+		<Unit filename="core/CControlBase.cpp" />
+		<Unit filename="core/CControlBase.h" />
+		<Unit filename="core/CEdit.cpp" />
+		<Unit filename="core/CEdit.h" />
+		<Unit filename="core/CGoodsFound.cpp" />
+		<Unit filename="core/CGoodsFound.h" />
+		<Unit filename="core/CLabel.cpp" />
+		<Unit filename="core/CLabel.h" />
+		<Unit filename="core/CList.cpp" />
+		<Unit filename="core/CList.h" />
+		<Unit filename="core/CTable.cpp" />
+		<Unit filename="core/CTable.h" />
+		<Unit filename="core/CTool.cpp" />
+		<Unit filename="core/CTool.h" />
+		<Unit filename="core/CWinBase.cpp" />
+		<Unit filename="core/CWinBase.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
